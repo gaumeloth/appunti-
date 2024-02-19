@@ -32,44 +32,36 @@ Per utilizzare caratteri speciali di Markdown (`*`, `_`, `#`, ecc.) come parte d
 ### 9. **Estensioni Markdown**
 Alcune piattaforme supportano estensioni che permettono funzionalità aggiuntive come note a piè di pagina, diagrammi, highlight del codice con specifica del linguaggio, e altro.
 
-### Esempio Pratico
-
-```markdown
-# Guida Markdown
-
-## Testo
-
-**Grassetto**, *Corsivo*, ~~Barrato~~.
-
-## Lista
-
-- Punto 1
-- Punto 2
-  - Sottopunto 2.1
-
-## Codice
-
-`codice inline`
-
-```python
-print("Blocco di codice Python")
-```
-
-## Link e Immagini
-
-[Google](https://www.google.com)
-
-![Alt text](url_immagine)
-
-## Citazione
-
-> Questa è una citazione.
-
-## Tabella
-
-| Colonna 1 | Colonna 2 |
-| --------- | --------- |
-| Valore 1  | Valore 2  |
-```
-
 Questo è solo un'introduzione alle funzionalità base di Markdown. Esistono molte altre caratteristiche e varianti, come il Markdown esteso o il GitHub Flavored Markdown (GFM), che introducono ulteriori elementi come i ToDo lists, i diagrammi, e altro. È utile esplorare la documentazione specifica della piattaforma che stai utilizzando per scoprire le funzionalità di Markdown supportate.
+
+Per l'uso di Markdown in Obsidian, che è un'applicazione per la gestione delle note basata su un sistema di file locali e costruita per supportare il collegamento tra le note, ci sono alcune funzionalità e tecniche specifiche che possono essere particolarmente utili:
+
+### 1. **Link Interni e Backlinking**
+- **Link Interni**: In Obsidian, puoi creare link a altre note utilizzando la sintassi `[[Nome della Nota]]`. Questo è estremamente utile per costruire una base di conoscenza interconnessa.
+- **Backlinking**: Obsidian traccia automaticamente i link tra le tue note, permettendoti di vedere rapidamente tutte le note che fanno riferimento a una particolare nota.
+
+### 2. **Transclusioni**
+- **Includere il Contenuto di Altre Note**: Puoi includere il contenuto di una nota dentro un'altra nota utilizzando la sintassi `![[Nome della Nota]]`. Questo permette di riutilizzare il contenuto e di mantenere le note atomiche ma collegate.
+
+### 3. **Blocchi di Testo e Riferimenti**
+- **Riferimenti a Blocchi**: Oltre a linkare a intere note, puoi riferirti a specifici blocchi di testo o punti elenco utilizzando un ID univoco del blocco (che puoi definire manualmente o che può essere generato da Obsidian).
+
+### 4. **Utilizzo di Tag**
+- **Tagging**: Puoi organizzare e categorizzare le tue note utilizzando i tag, inserendoli con il simbolo `#`. I tag possono essere utilizzati per filtrare e ricercare le note in Obsidian.
+
+### 5. **Personalizzazione con CSS**
+- **Temi e Stili Personalizzati**: Obsidian permette di personalizzare l'aspetto delle tue note utilizzando CSS. Puoi creare o modificare temi per cambiare colori, font, e altri stili del tuo ambiente di lavoro.
+
+### 6. **Utilizzo di Plugin**
+- **Estensioni della Funzionalità**: Obsidian supporta l'uso di plugin per estendere le sue funzionalità. Ci sono plugin per tutto, dalla gestione dei progetti, alla visualizzazione dei dati, all'integrazione con altri servizi.
+
+### 7. **Grafici**
+- **Visualizzazione delle Connessioni**: La funzionalità di grafico di Obsidian ti permette di visualizzare e navigare la rete di note e le loro interconnessioni, offrendo una potente vista d'insieme della tua base di conoscenza.
+
+### 8. **Modalità di Visualizzazione**
+- **Split View**: Obsidian permette di avere una vista divisa (split view) per vedere più note contemporaneamente, sia in modalità di editing che di preview, facilitando il riferimento incrociato e la scrittura parallela.
+
+### 9. **Code Snippets**
+- **Inserimento di Codice**: Anche se Markdown supporta blocchi di codice, Obsidian, con l'aiuto di plugin, può migliorare ulteriormente questa funzionalità, offrendo syntax highlighting per diversi linguaggi di programmazione e la possibilità di eseguire snippet di codice.
+
+Questi sono solo alcuni degli aspetti che rendono Obsidian uno strumento potente per la gestione delle note e la costruzione di una base di conoscenza personale. Il consiglio è di esplorare le opzioni di personalizzazione e i plugin disponibili per adattare l'ambiente alle tue esigenze specifiche.
